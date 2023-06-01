@@ -2,7 +2,7 @@
 Un artista da strada esegue delle caricature e dei ritratti a carboncino.
 L'algoritmo implementato nel codice è una simulazione di un'attività di un artista che deve fare dei ritratti per i clienti. Ecco una spiegazione dell'algoritmo:
 
-Nel metodo `**main**` della classe `app`, viene creato un oggetto `artist` e viene chiamato il metodo `lavoro` per avviare la simulazione.
+Nel metodo `main` della classe `app`, viene creato un oggetto `artist` e viene chiamato il metodo `lavoro` per avviare la simulazione.
 
 Il metodo `lavoro` nella classe `artist` avvia un ciclo `for` che itera 10 volte. Ad ogni iterazione, viene creato un nuovo oggetto `client` con un ID specifico e viene avviato come thread.
 
